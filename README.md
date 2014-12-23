@@ -9,7 +9,7 @@ that I (the author) feel should be included in their source mods but aren't and 
 Please include the following:
 
 * Minecraft version
-* Blood Magic version
+* Mod version
 * Forge version/build
 * Versions of any mods potentially related to the issue
 * Any relevant screenshots are greatly appreciated.
@@ -20,8 +20,8 @@ Please include the following:
 ##Development Setup
 
 1. Fork this project to your own Github repository and clone it to your desktop.
-2. Navigate to the directory you cloned to. Open a command window there and run `gradlew setupDevWorkspace` then (if you use Eclipse) `gradlew eclipse` or (if you use IDEA) `gradlew idea`. 
-3. This process will setup [Forge](http://www.minecraftforge.net/forum/), your workspace, and link [MineTweaker](http://minetweaker3.powerofbytes.com/) as a dependency.
+2. Navigate to the directory you cloned to. Open a command window there and run `gradlew [setupDevWorkspace|setupDecompWorkspace [eclipse|idea]`.
+3. This process will setup [Forge](http://www.minecraftforge.net/forum/) as well as your workspace.
 4. Open the project in your IDE of choice.
 5. Set `../src/api/java` (If applicable) as a source directory.
 
