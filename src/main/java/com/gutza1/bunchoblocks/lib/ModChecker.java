@@ -8,4 +8,7 @@ public class ModChecker {
     public static boolean isIC2Loaded() {
         return Loader.isModLoaded("IC2") && ConfigHandler.enableIC2Module;
     }
+    public static boolean isGregtechLoaded(){
+    	return Loader.isModLoaded("gregtech") && ConfigHandler.enableGregtechModule;
+    }
 }

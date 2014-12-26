@@ -4,6 +4,7 @@ public class CraftingManager {
 	public static void mainRegistry(){
 		addCraftingRec();
 		addSmeltingRec();
+		addMachineRec();
 	}
 	public static void addCraftingRec(){
 		//Shaped
@@ -16,6 +17,9 @@ public class CraftingManager {
 	}
 	public static void addSmeltingRec(){
 		//GameRegistry.addSmelting(Blocks.coal_block, new ItemStack(Blocks.obsidian, 1), 20.0f);
+	}
+	public static void addMachineRec(){
+		
 	}
 
 }

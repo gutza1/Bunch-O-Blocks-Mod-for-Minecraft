@@ -12,11 +12,17 @@ public class ICItems {
 		registerItem();
 	}
 	public static Item crushMagDust;
+	public static Item pureMagDust;
+	public static Item magIngot;
 	public static void initializeItem(){
 		crushMagDust = new CrushMagDust();
+		pureMagDust = new PureMagDust();
+		magIngot = new MagIngot();
 	}
 	public static void registerItem(){
 		GameRegistry.registerItem(crushMagDust, "crushMagDust");
+		GameRegistry.registerItem(pureMagDust, "pureMagDust");
+		GameRegistry.registerItem(magIngot, "magIngot");
 	}
 
 }

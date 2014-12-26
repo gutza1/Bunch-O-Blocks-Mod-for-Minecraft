@@ -6,6 +6,8 @@ tile.bunchoblocks.ore.magnesite.name=Magnesite Ore
 
 // Items
 item.bunchoblocks.dust.unref.magnesium.name=Crushed Magnesium Dust
+item.bunchoblocks.dust.pure.magnesium.name=Purified Crushed Magnesium Dust
+item.bunchoblocks.item.ingot.magnesium.name=Magnesium Ingot
 
 // Config
 gui.bunchoblocks.config.title=Bunch O' Blocks Configuration

@@ -16,6 +16,8 @@ public class ConfigHandler {
     public static boolean enableGeneration;
 
     public static boolean enableIC2Module;
+    
+    public static boolean enableGregtechModule;
 
     public static void init(File file) {
         config = new Configuration(file);
@@ -29,6 +31,8 @@ public class ConfigHandler {
         enableGeneration = config.get(generation, "enableGeneration", true, "Enable world generation").getBoolean(enableGeneration);
 
         enableIC2Module = config.get(modules, "enableIC2Module", true).getBoolean(enableIC2Module);
+        
+        enableGregtechModule = config.get(modules, "enableGregtechModule", true).getBoolean(enableGregtechModule);
 
         config.save();
     }
