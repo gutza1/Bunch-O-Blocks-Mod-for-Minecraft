@@ -5,7 +5,7 @@ itemGroup.bunchoblocks.creativeTab=Bunch O' Blocks
 tile.bunchoblocks.ore.magnesite.name=Magnesite Ore
 
 // Items
-item.bunchoblocks.dust.unref.magnesium.name=Unrefined Magnesium Dust
+item.bunchoblocks.dust.unref.magnesium.name=Crushed Magnesium Dust
 
 // Config
 gui.bunchoblocks.config.title=Bunch O' Blocks Configuration
